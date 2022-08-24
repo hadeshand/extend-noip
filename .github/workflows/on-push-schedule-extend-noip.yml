@@ -3,7 +3,7 @@ name: on-push-schedule-extend-noip
 on:
   push:
   schedule:
-    - cron: '15 21 */9 * *'
+    - cron: '00 01 */2 * *'
 jobs:
   extend-noip__main__:
     strategy:
